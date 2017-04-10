@@ -1,0 +1,62 @@
+@font-face
+{
+font-family: OpenSans;
+src: url('font/OpenSans-Regular.ttf'),
+     url('font/OpenSans-Bold.ttf'); /* IE9 */
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+    margin: 0 !important;
+}
+
+table {
+	font-size: 0.8em;
+    padding: 25px 20px;
+    width: 100%;
+}
+
+.purchase_data {
+    background: rgb(158, 158, 158);
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.purchase_data table {
+	padding-top: 0;
+}
+
+.purchase_data tr {
+	text-align: center;
+    height: 35px;
+}
+
+.purchase_data table tr:nth-child(even) {
+    background-color: #eee;
+}
+.purchase_data table tr:nth-child(odd) {
+   background-color:#fff;
+}
+.purchase_data table tr:first-child {
+    background-color: #9E9E9E;
+}
+
+.inp_header {
+    background: #009688;
+    color: #fff;
+    padding: 3px 20px;
+    margin: 0;
+}
+
+.inp_header h3 {
+    margin: 10px 0;
+}
+
+/* Button CSS 
+***************/
+
+.btn-submit {
+    cursor: pointer;
+    padding: 7px 20px;
+    margin-top: 13px;
+}
