@@ -7,6 +7,7 @@
 	include 'includes/header.php'; 
 	include 'includes/purchase.php'; 
 	include 'includes/purchase_details.php'; 
+	
 	?>
 	</div>
 </div>
